@@ -1,0 +1,39 @@
+.activityListItem {
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    padding-bottom: 11px;
+    border: 1px solid #efefef;
+
+    .details {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        .img {
+            height: 30px;
+            width: 30px;
+            margin-right: 11px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+
+        .name {
+            font-size: 19px;
+        }
+    }
+
+    .event {
+        font-weight: 500;
+        color: #000;
+    }
+
+    .repo {
+        color: #00adff
+    }
+}

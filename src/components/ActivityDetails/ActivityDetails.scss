@@ -1,0 +1,35 @@
+.activityDetails {
+    background-color: #fff;
+    padding: 13px;
+    margin-top: 16px;
+    margin-left: -7px;
+    margin-right: -7px;
+    border: 1px solid #ebebeb;
+    border-top: 2px solid #6e6e6e;
+
+    .eventItem {
+        font-size: 13px;
+
+        span {
+            font-weight: 500;
+
+        }
+
+        .commits:not(:last-child) {
+            margin-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 4px;
+        }
+
+        .title {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+    }
+
+    .author {
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+
+}

@@ -1,0 +1,24 @@
+.usersList {
+    max-width: 575px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 19px rgba(0, 0, 0, 0.2);
+    padding: 20px 15px;
+    min-height: 424px;
+
+    .usersListItem:not(:last-child) {
+
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .noActivity {
+        text-align: center;
+        color: #333;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
