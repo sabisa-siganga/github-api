@@ -9,11 +9,7 @@ This app has the following features:
 5. Has the ability to store and load data from offline storage (Assuming that this feature will be used in future expansions to the application)
 6. The application is responsive for use on multiple devices.
 
-The application template provides a service to call the Github API through Octokit. The structure is there, however you will have to complete the functionality.
-
-Please use the Components, Hooks, Services and Views provided to complete your solution. You may add any extra Components, Hooks, Services or Views as needed.
-
-Creating your own UI components and custom styling will be preferred over using a pre-built UI kit, but is not required.
+The application template provides a service to call the Github API through Octokit.
 
 ## Available Scripts
 
