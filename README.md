@@ -1,13 +1,13 @@
-## React TypeScript Assessment
+## React TypeScript
 
-Please use the template provided to create an application that satisfies the following requirements:
+This app has the following features:
 
 1. Allows for search of users on github by their username or a partial of their username. 
 2. Displays the list of the users that were returned in the search
 3. Allows the user to click on a listed user to navigate to a page that displays that user's github activity.
 4. Allows the user to view more specific details about an activity item.
 5. Has the ability to store and load data from offline storage (Assuming that this feature will be used in future expansions to the application)
-6. The application must be responsive for use on multiple devices.
+6. The application is responsive for use on multiple devices.
 
 The application template provides a service to call the Github API through Octokit. The structure is there, however you will have to complete the functionality.
 
